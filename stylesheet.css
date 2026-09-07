@@ -14,6 +14,7 @@ img {
     background-size: cover;
     background-position: center;
     padding: 150px;
+    margin-bottom: -30px
     
 
 }
@@ -44,8 +45,44 @@ img {
 
 }
 
+.content{
+    background-color: #BCECBA;
+    background-size: cover;
+    padding: 20px;
+    color: #251f47
 
-    
+}
+
+.activities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    word-wrap: break-word;
+}
+
+#img1,#img2,#img3 {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding : 15px;
+    border: 0px solid black;
+    border-radius: 205px;
+
+}
+.szoveg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    color: #251f47;
+    font-size: 20px;
+   
+
+}
+p{
+    width: 400px;
+}
 
 
 .guide {
