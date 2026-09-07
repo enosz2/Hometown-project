@@ -1,8 +1,9 @@
 body{
     text-align: center;
+    margin: 0;
 
 }
-img{
-    width: 100px;
-    height: auto;
+img {
+    width: 100 px;
+    height: 100 px;
 }
