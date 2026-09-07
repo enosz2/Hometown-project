@@ -4,6 +4,6 @@ body{
 
 }
 img {
-    width: 100 px;
-    height: 100 px;
+    width: 50 px;
+    object-fit: cover;
 }
