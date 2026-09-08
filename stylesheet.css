@@ -13,35 +13,42 @@ img {
     background-image:url(https://cdn.pixabay.com/photo/2019/10/12/20/23/hungary-4544781_1280.jpg);
     background-size: cover;
     background-position: center;
-    padding: 150px;
-    margin-bottom: -30px
+    padding: 150px 20px;
+    margin-bottom: -30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
     
+
 
 }
 
 #header-title {
     font-size: 50px;
     color: #ffffff;
-    margin: 0;
-    background:#41757D;
+    margin:auto ;
+    background: #41757D;
     padding: 10px;
     border-radius: 50px;
-    background-size: cover;
-    display:inline-block;
     width: fit-content;
-    margin-bottom: 20px;
+    max-width: 90%;
+    margin-bottom: 10px;
+   
 }
 
 #header-subtitle {
     font-size: 30px;
-    color: #ffffff;
+    color: white;
+    background: #41757D;
     margin: 0;
-    background:#404e7c;
+    background: #404e7c;
     padding: 10px;
     border-radius: 50px;
-    background-size: cover;
-    display:inline-block;
-    width: auto;
+    width: fit-content;
+    max-width: 90%;
+    
 
 }
 
