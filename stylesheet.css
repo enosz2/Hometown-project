@@ -63,7 +63,7 @@ img {
 .activities{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     word-wrap: break-word;
 }
@@ -84,32 +84,31 @@ img {
     gap: 5px;
     color: #251f47;
     font-size: 20px;
+    width: 300px;
    
 
 }
-p{
-    width: 400px;
-}
+
 
 
 .guide {
-    background-color: #f2f2f2;
-    padding: 20px;
-    border-radius: 10px;
-    border: 1px solid black;
-    margin: 20px 400px 20px 400px;
-    background-color: purple;
-     display: flex;
-    flex-direction: column;   /* SZÖVEGEK egymás alatt */
-  text-align: right;
+  display:flex;
+  align-items:center;
+  background: red;
+  width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.guide-text{
+    display:flex;
+    flex-direction: column;
     
 }
+
 
 #myself {
    width : 150px;
    height : 150px;
-   display: flex;
-justify-content: flex-start;  
-align-items: center; 
-}
-
+   justify-content:flex-start;
+   
