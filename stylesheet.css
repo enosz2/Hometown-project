@@ -7,6 +7,9 @@ img {
     width: 30%;
     height: 400px;
     object-fit: cover;
+    overflow: hidden;
+    
+
 }
 
 .header{
@@ -20,16 +23,26 @@ img {
     align-items: center;
     text-align: center;
     gap: 10px;
+    transition: all 3s ease-in-out;
     
+    
+}
 
+.header:hover{
+    background-image: url(https://cdn.britannica.com/65/183465-050-FEFA1520/Szechenyi-Chain-Bridge-Danube-River-Budapest.jpg);
+    background-size: cover;
+    background-position:center;
+    transition: 3s;
 
 }
 
+
+
 #header-title {
     font-size: 50px;
-    color: #ffffff;
+    color: #f0ead2;
     margin:auto ;
-    background: #41757D;
+    background: #31572c;
     padding: 10px;
     border-radius: 50px;
     width: fit-content;
@@ -40,10 +53,9 @@ img {
 
 #header-subtitle {
     font-size: 30px;
-    color: white;
-    background: #41757D;
-    margin: 0;
-    background: #404e7c;
+    color: #f0ead2;
+    margin: 0 auto;
+    background: #31572c;
     padding: 10px;
     border-radius: 50px;
     width: fit-content;
@@ -53,10 +65,10 @@ img {
 }
 
 .content{
-    background-color: #BCECBA;
+    background-color: #a98467;
     background-size: cover;
     padding: 20px;
-    color: #251f47
+    color: #132a13
 
 }
 
@@ -82,7 +94,7 @@ img {
     align-items: center;
     flex-direction: column;
     gap: 5px;
-    color: #251f47;
+    color: #f0ead2;
     font-size: 20px;
     width: 300px;
    
@@ -92,23 +104,32 @@ img {
 
 
 .guide {
-  display:flex;
-  align-items:center;
-  background: red;
-  width: 500px;
-  margin: 50px auto;
-  padding: 20px;
+ display:flex;
+ align-items: center;
+ justify-content: center;
+ background: #31572c;
+ color:#f0ead2;
+ width: 500px;
+ padding: 20px;
+ margin: 50px auto;
+
 }
 
 .guide-text{
-    display:flex;
+    width: 250px;
+    margin-left:20px;
+    display: flex;
     flex-direction: column;
-    
+
+
 }
 
 
 #myself {
    width : 150px;
    height : 150px;
-   justify-content:flex-start;
+   align-items: center;
+
+}
+   
    
